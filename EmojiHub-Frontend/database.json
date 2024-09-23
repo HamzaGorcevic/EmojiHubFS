@@ -1,0 +1,14 @@
+{
+    "users": {
+        "user1": {
+            "password": "337791",
+            "score": 10,
+            "myList": ["☹☹☹☹", "☹☹☹☹😡😵"]
+        },
+        "user2": {
+            "password": "338115",
+            "score": 43,
+            "myList": ["😁😂🤣🤣🤣", "😯😯😯🤑🤑"]
+        }
+    }
+}

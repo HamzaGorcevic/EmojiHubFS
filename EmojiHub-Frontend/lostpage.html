@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lost Page</title>
+        <link
+            rel="stylesheet"
+            href="path/to/font-awesome/css/font-awesome.min.css"
+        />
+
+        <script
+            src="https://kit.fontawesome.com/a9a14f16de.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+
+        <style>
+            .lostContainer {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url("./album/lostpage.png");
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+
+            .lost-container {
+                text-align: center;
+                max-width: 600px;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            p {
+                color: #555;
+                margin-bottom: 20px;
+            }
+
+            .register-btn {
+                display: inline-block;
+                padding: 10px 20px;
+                margin-top: 20px;
+                background-color: #3498db;
+
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+            .register-btn:hover {
+                background-color: rgb(0, 255, 217);
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <div class="logo">
+                    <div class="logoContainer">
+                        <a href="index.html"
+                            ><img src="album/myLogo.png" alt=""
+                        /></a>
+                    </div>
+                </div>
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html"
+                            ><i class="fa-solid fa-house-chimney"></i> Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            ><i class="fa-solid fa-envelope"></i> Contact me</a
+                        >
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            ><i class="fa-solid fa-circle-info"></i> About</a
+                        >
+                    </li>
+                    <li class="hide">
+                        <a class="linkToLostPage" href="mylist.html">
+                            <i class="fa-solid fa-star"></i>My List</a
+                        >
+                    </li>
+                    <li>
+                        <a href="favorite.html">
+                            <i class="fa-solid fa-star"></i>Favorite</a
+                        >
+                    </li>
+                    <li class="hide">
+                        <a class="linkToLostPage" href="game.html"
+                            ><i class="fa-solid fa-gamepad"></i>Game</a
+                        >
+                    </li>
+                    <li>
+                        <a class="loginUser" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="registerUser" href="register.html"
+                            >Register</a
+                        >
+                    </li>
+                    <div id="google_translate_element"></div>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER -->
+        <div class="lostContainer">
+            <div class="lost-container">
+                <h1>Lost Page</h1>
+                <p>You must register first to gain access to this page.</p>
+                <a href="register.html" class="register-btn">Register Now</a>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <img src="album/myLogo.png" alt="Logo" width="150" />
+            <p>&copy; 2023 hamzagorcevic.com</p>
+            <a href="mailto:hamzagorcevic100@gmail.com" class="icon"
+                ><i class="fas fa-envelope"></i
+            ></a>
+            <a
+                href="https://github.com/HamzaGorcevic"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-github"></i
+            ></a>
+        </footer>
+        <script src="./scripts/header.js"></script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+
+        <script>
+            function googleTranslateInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: "en" },
+                    "google_translate_element"
+                );
+            }
+            googleTranslateInit();
+        </script>
+        <!-- FOOTER -->
+    </body>
+</html>

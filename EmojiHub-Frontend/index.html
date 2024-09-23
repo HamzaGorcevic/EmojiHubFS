@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/home.css" />
+        <link rel="stylesheet" href="styles/sidebar.css" />
+        <title>HOME</title>
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/footer.css" />
+        <link
+            rel="stylesheet"
+            href="path/to/font-awesome/css/font-awesome.min.css"
+        />
+
+        <script
+            src="https://kit.fontawesome.com/a9a14f16de.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="homeContainer">
+            <!-- HEADER -->
+            <header class="header">
+                <nav>
+                    <div class="logo">
+                        <div class="logoContainer">
+                            <a href="index.html"
+                                ><img src="album/myLogo.png" alt=""
+                            /></a>
+                        </div>
+                    </div>
+                    <input type="checkbox" id="menu-toggle" />
+                    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html"
+                                ><i class="fa-solid fa-house-chimney"></i>
+                                Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="contact.html"
+                                ><i class="fa-solid fa-envelope"></i> Contact
+                                me</a
+                            >
+                        </li>
+                        <li>
+                            <a href="about.html"
+                                ><i class="fa-solid fa-circle-info"></i>
+                                About</a
+                            >
+                        </li>
+                        <li class="hide">
+                            <a class="linkToLostPage" href="mylist.html">
+                                <i class="fa-solid fa-star"></i>My List</a
+                            >
+                        </li>
+                        <li>
+                            <a href="favorite.html">
+                                <i class="fa-solid fa-star"></i>Favorite</a
+                            >
+                        </li>
+                        <li class="hide">
+                            <a class="linkToLostPage" href="game.html"
+                                ><i class="fa-solid fa-gamepad"></i>Game</a
+                            >
+                        </li>
+                        <li>
+                            <a class="loginUser" href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a class="registerUser" href="register.html"
+                                >Register</a
+                            >
+                        </li>
+                        <div id="google_translate_element"></div>
+                    </ul>
+                </nav>
+            </header>
+            <!-- HEADER -->
+
+            <!-- SIDEBAR -->
+            <div class="sideBarContainer">
+                <!-- <div class="boxDiv">
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
+                <nav class="menu">
+                    <!-- <li class="special">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="menu-item">Login</p>
+                    </li>
+                    <li class="special">
+                        <a href="about.html">
+                            <i class="fa-regular fa-address-card"></i>
+                        </a>
+                        <a href="about.html"><p class="menu-item">About</p></a> -->
+                    <!-- </li> -->
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('smileys-and-people')"
+                            class="fa-solid fa-face-laugh-wink"
+                        ></i>
+                        <p class="menu-item">Smileys and People</p>
+                    </li>
+
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('animals-and-nature')"
+                            class="fa-solid fa-cat"
+                        ></i>
+                        <p class="menu-item">Animals and Nature</p>
+                    </li>
+
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('food-and-drink')"
+                            class="fa-solid fa-utensils"
+                        ></i>
+                        <p class="menu-item">Food and Drink</p>
+                    </li>
+
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('travel-and-places')"
+                            class="fa-solid fa-location-dot"
+                        ></i>
+                        <p class="menu-item">Travel and Places</p>
+                    </li>
+
+                    <!-- <li class="categ">
+                        <i
+                            onclick="categoryFetch('activities')"
+                            class="fa-solid fa-person-swimming"
+                        ></i>
+                        <p class="menu-item">Activities</p>
+                    </li> -->
+
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('objects')"
+                            class="fa-solid fa-mosque"
+                        ></i>
+                        <p class="menu-item">Objects</p>
+                    </li>
+
+                    <li class="categ">
+                        <i
+                            onclick="categoryFetch('symbols')"
+                            class="fa-solid fa-moon"
+                        ></i>
+                        <p class="menu-item">Symbols</p>
+                    </li>
+
+                    <!-- <li>
+                        <i
+                            onclick="categoryFetch('flags')"
+                            class="fa-solid fa-flag"
+                        ></i>
+                        <p class="menu-item">Flags</p>
+                    </li> -->
+                </nav>
+            </div>
+            <!-- SIDERBAR -->
+            <div class="searchBar">
+                <input placeholder="Search for emojis" type="text" />
+                <div class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="emojisContainer" id="emojis-container"></div>
+        </div>
+        <!-- EDITOR -->
+        <div class="editor">
+            <i class="fa-solid fa-angle-left" id="editorToggle"></i>
+            <textarea
+                placeholder=" copy or paste"
+                name=""
+                id=""
+                cols="16"
+                rows="4"
+            ></textarea>
+            <h3 id="copy">Copy</h3>
+            <h3 class="save"><i class="fa-solid fa-star"></i>Save</h3>
+        </div>
+        <!-- EDITOR -->
+        <!-- FOOTER -->
+        <footer>
+            <img src="album/myLogo.png" alt="Logo" width="150" />
+            <p>&copy; 2023 hamzagorcevic.com</p>
+            <a href="mailto:hamzagorcevic100@gmail.com" class="icon"
+                ><i class="fas fa-envelope"></i
+            ></a>
+            <a
+                href="https://github.com/HamzaGorcevic"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-github"></i
+            ></a>
+        </footer>
+        <!-- FOOTER -->
+
+        <script src="scripts/app.js"></script>
+        <script src="scripts/header.js"></script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+
+        <script>
+            function googleTranslateInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: "en" },
+                    "google_translate_element"
+                );
+            }
+            googleTranslateInit();
+        </script>
+    </body>
+</html>

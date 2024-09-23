@@ -1,0 +1,148 @@
+.loginContainer {
+    font-family: "Arial", sans-serif;
+    background-image: url("../album/login.jpg");
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    position: relative;
+}
+
+.loginContainer::after {
+    background-color: rgba(0, 0, 0, 0.459);
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+
+.loginContainer h2 {
+    font-weight: bold;
+    z-index: 11;
+    margin-bottom: 30px;
+    font-size: 48px;
+    letter-spacing: 10px;
+    color: white;
+}
+
+form {
+    height: 300px;
+    width: 40%;
+    z-index: 11;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.073);
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label {
+    z-index: 13;
+    display: block;
+    margin-bottom: 8px;
+    position: absolute;
+    left: 5px;
+    padding: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(35, 33, 33);
+    top: 30px;
+    transition: 0.3s all ease;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: none !important;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid rgb(234, 156, 62);
+    height: 40px;
+    background: transparent;
+}
+
+form input:focus {
+    outline: none;
+    border-color: transparent;
+    border-bottom: 2px solid rgb(234, 156, 62) !important;
+}
+
+.inputGroup {
+    position: relative;
+    width: 100%;
+}
+
+form button {
+    background-color: #db9534;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: rgb(167, 94, 30);
+}
+
+.loginStatus {
+    cursor: pointer;
+    color: rgb(0, 157, 255);
+}
+
+@media screen and (max-width: 1000px) {
+    form {
+        width: 80%;
+    }
+}
+
+.inputGroup input:focus {
+    border: 2px solid orange;
+    background-color: transparent !important;
+}
+.inputGroup input:valid {
+    background: transparent !important;
+}
+.inputGroup input:valid ~ label,
+.inputGroup:focus-within label {
+    font-size: 15px;
+    top: 11px !important;
+}
+.inputGroup input:-webkit-autofill {
+    background: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    background-color: transparent !important;
+}
+
+.error {
+    color: rgb(234, 62, 62);
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: bold;
+}

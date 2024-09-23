@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link
+            rel="stylesheet"
+            href="path/to/font-awesome/css/font-awesome.min.css"
+        />
+
+        <script
+            src="https://kit.fontawesome.com/a9a14f16de.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="styles/footer.css" />
+        <link rel="stylesheet" href="styles/mylist.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <div class="logo">
+                    <div class="logoContainer">
+                        <a href="index.html"
+                            ><img src="album/myLogo.png" alt=""
+                        /></a>
+                    </div>
+                </div>
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html"
+                            ><i class="fa-solid fa-house-chimney"></i> Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            ><i class="fa-solid fa-envelope"></i> Contact me</a
+                        >
+                    </li>
+                    <li>
+                        <a href="about.html"
+                            ><i class="fa-solid fa-circle-info"></i> About</a
+                        >
+                    </li>
+                    <li class="hide">
+                        <a class="linkToLostPage" href="mylist.html">
+                            <i class="fa-solid fa-star"></i>My List</a
+                        >
+                    </li>
+                    <li>
+                        <a href="favorite.html">
+                            <i class="fa-solid fa-star"></i>Favorite</a
+                        >
+                    </li>
+                    <li class="hide">
+                        <a class="linkToLostPage" href="game.html"
+                            ><i class="fa-solid fa-gamepad"></i>Game</a
+                        >
+                    </li>
+                    <li>
+                        <a class="loginUser" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a class="registerUser" href="register.html"
+                            >Register</a
+                        >
+                    </li>
+                    <div id="google_translate_element"></div>
+                </ul>
+            </nav>
+        </header>
+        <!-- HEADER -->
+        <div class="mylistContainer">
+            <div class="emoji-container">
+                <h2>Your Emoji List</h2>
+                <ul class="emoji-list" id="emoji-list"></ul>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <img src="album/myLogo.png" alt="Logo" width="150" />
+            <p>&copy; 2023 hamzagorcevic.com</p>
+            <a href="mailto:hamzagorcevic100@gmail.com" class="icon"
+                ><i class="fas fa-envelope"></i
+            ></a>
+            <a
+                href="https://github.com/HamzaGorcevic"
+                class="icon"
+                target="_blank"
+                ><i class="fab fa-github"></i
+            ></a>
+        </footer>
+        <!-- FOOTER -->
+
+        <script src="scripts/mylist.js"></script>
+        <script src="scripts/header.js"></script>
+        <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateInit"></script>
+
+        <script>
+            function googleTranslateInit() {
+                new google.translate.TranslateElement(
+                    { pageLanguage: "en" },
+                    "google_translate_element"
+                );
+            }
+            googleTranslateInit();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:has(p) {
+    text-decoration: none;
+    width: 100%;
+}
+
+body {
+    font-family: "Audiowide", sans-serif;
+}
+
+a:has(p) {
+    text-decoration: none;
+    width: 100%;
+}
+.sideBarContainer {
+    position: absolute;
+    left: 0;
+    text-decoration: none;
+    top: 12rem;
+    min-height: 20vh;
+    gap: 10px;
+    display: flex;
+    justify-content: end;
+    padding: 40px 0 50px 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 35%;
+}
+
+.sideBarContainer .menu {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.sideBarContainer .menu li i {
+    font-size: 20px;
+    min-width: 50px;
+    min-height: 50px;
+    color: #fff78a;
+    transition: all 0.2s ease;
+    background-color: #ffad84;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid white;
+}
+.sideBarContainer .menu li:hover i {
+    background: rgb(14, 132, 179) !important;
+    box-shadow: 3px 3px 10px rgb(14, 132, 179);
+}
+.selectedCat {
+    background: rgb(14, 132, 179) !important;
+    box-shadow: 3px 3px 10px rgb(14, 132, 179);
+}
+.sideBarContainer .menu li:nth-child(1) i {
+    background: #3498db;
+}
+
+.sideBarContainer .menu li:nth-child(2) i {
+    background: #e74c3c;
+}
+
+.sideBarContainer .menu li:nth-child(3) i {
+    background: #2ecc71;
+}
+
+.sideBarContainer .menu li:nth-child(4) i {
+    background: #f39c12;
+}
+
+.sideBarContainer .menu li:nth-child(5) i {
+    background: #9b59b6;
+}
+
+.sideBarContainer .menu li:nth-child(6) i {
+    background: #1abc9c;
+}
+
+.sideBarContainer .menu li:nth-child(7) i {
+    background: #e67e22;
+}
+
+.menu-item {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    text-wrap: nowrap;
+    color: white;
+    font-size: 20px;
+    background-color: #ffad84;
+    height: 29px;
+}
+.sideBarContainer {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+    .sideBarContainer {
+        width: 90%;
+    }
+}
