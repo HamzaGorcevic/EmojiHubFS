@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" href="styles/footer.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+
         <link
             rel="stylesheet"
             href="path/to/font-awesome/css/font-awesome.min.css"
@@ -10,12 +13,17 @@
             src="https://kit.fontawesome.com/a9a14f16de.js"
             crossorigin="anonymous"
         ></script>
-        <link rel="stylesheet" href="styles/footer.css" />
-        <link rel="stylesheet" href="styles/mylist.css" />
-        <link rel="stylesheet" href="styles/header.css" />
-
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="styles/mylist.css" />
+        <link rel="stylesheet" href="styles/blogs.css" />
+
+        <title>Most-Used Emojis 2022</title>
     </head>
     <body>
         <header class="header">
@@ -76,11 +84,26 @@
                 </ul>
             </nav>
         </header>
+
         <!-- HEADER -->
-        <div class="mylistContainer">
-            <div class="emoji-container">
-                <h2>Your Emoji List</h2>
-                <ul class="emoji-list" id="emoji-list"></ul>
+        <div class="blogsContainer">
+            <div class="blogsTitleDiv">
+                <h1 class="blogs-title">
+                    The Top 10 Most Popular Emojis and How to Use Them
+                </h1>
+                <p style="color: white; margin-top: 20px">
+                    Emoji is the language of the future. But which are most
+                    popular? We have the data.
+                </p>
+            </div>
+            <div class="emoji-list" style="background: rgba(0, 0, 0, 0.311)">
+                <div class="emoji-list">
+                    <div class="emoji-item bg-light p-4 mb-4 rounded">
+                        <h2 id="blog-owner"></h2>
+                        <h2 class="" id="blog-description"></h2>
+                        <p class="text-secondary" id="blog-list"></p>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- FOOTER -->
@@ -98,8 +121,7 @@
             ></a>
         </footer>
         <!-- FOOTER -->
-
-        <script type="module" src="scripts/mylist.js"></script>
+        <script type="module" src="scripts/blogs.js"></script>
         <script src="scripts/header.js"></script>
     </body>
 </html>

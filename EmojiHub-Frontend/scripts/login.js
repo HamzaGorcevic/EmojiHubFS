@@ -26,7 +26,12 @@ async function login() {
     let response = await request.json();
     console.log(response);
 
-    localStorage.setItem(token, response.value);
+    localStorage.setItem("token", response.value);
+
+    let tokenArr = response.value.split(".");
+    let tokenPayload = JSON.parse(atob(tokenArr[1]));
+    console.log(tokenPayload);
+    localStorage.setItem("loggedInUser", tokenPayload.unique_name);
 
     // specail users !
 }

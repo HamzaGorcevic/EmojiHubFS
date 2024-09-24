@@ -1,4 +1,4 @@
-.favoriteContainer {
+.blogsContainer {
     font-family: "Arial", sans-serif;
     display: flex;
     background-image: url("../album/background.jpg");
@@ -9,7 +9,7 @@
     flex-direction: column;
     padding-bottom: 100px;
 }
-.favorite-title {
+.blogs-title {
     color: white;
 }
 .emoji-list {
@@ -54,7 +54,7 @@ a {
 .emoji-item:nth-child(6) h2 {
     color: teal;
 }
-.favoriteTitleDiv {
+.blogsTitleDiv {
     margin-top: 200px;
     background-color: teal;
     text-align: center;
