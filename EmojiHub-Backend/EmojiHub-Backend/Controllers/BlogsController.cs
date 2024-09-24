@@ -20,7 +20,7 @@ namespace EmojiHub_Backend.Controllers
         }
 
         [HttpGet("allblogs")]
-        public async Task<ServiceResponse<List<BlogDto>>> GetAllBlogs()
+        public async Task<ServiceResponse<List<PublicBlogDto>>> GetAllBlogs()
         {
             var response = await _blogService.GetAllBlogs();
             return response;

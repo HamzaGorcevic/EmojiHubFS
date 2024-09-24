@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using EmojiHub_Backend.Dtos.Blog;
+using EmojiHub_Backend.Dtos.EmojiList;
 using EmojiHub_Backend.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -42,11 +43,18 @@ namespace EmojiHub_Backend.Services
 
 
 
-        public async Task<ServiceResponse<List<BlogDto>>> GetAllBlogs()
+        public async Task<ServiceResponse<List<PublicBlogDto>>> GetAllBlogs()
         {
-            var response = new ServiceResponse<List<BlogDto>>();
-            var blogs= await _context.Blogs.ToListAsync();
-            response.Value = _mapper.Map<List<BlogDto>>(blogs);
+            var response = new ServiceResponse<List<PublicBlogDto>>();
+            var blogs = await _context.Blogs.Include(b => b.User).Include(b=>b.EmojiList).ToListAsync();
+
+            var publicBlogs = blogs.Select(b => new PublicBlogDto
+            {
+                UserName = b.User.Name,
+                EmojiList = _mapper.Map<EmojiListDto>(b.EmojiList),
+                Description = b.Description,
+            });
+            response.Value = publicBlogs.ToList();
             response.Success =blogs.Count > 0;
             return response;
 

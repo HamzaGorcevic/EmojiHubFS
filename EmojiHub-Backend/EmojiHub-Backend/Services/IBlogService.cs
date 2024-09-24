@@ -5,7 +5,7 @@ namespace EmojiHub_Backend.Services
 {
     public interface IBlogService
     {
-        public Task<ServiceResponse<List<BlogDto>>> GetAllBlogs();
+        public Task<ServiceResponse<List<PublicBlogDto>>> GetAllBlogs();
 
         public Task<ServiceResponse<List<BlogDto>>> GetBlogs(); 
         public Task<ServiceResponse<BlogDto>>GetBlog(int blogId);

@@ -14,6 +14,7 @@ namespace EmojiHub_Backend
             CreateMap<EmojiList,EmojiListDto>();
             CreateMap<Blog,BlogDto>();
             CreateMap<BlogDto, Blog>();
+           
         }
 
     }
