@@ -24,7 +24,7 @@ namespace EmojiHub_Backend
             builder.Services.AddScoped<IAuthRepository, AuthRepository>();
             builder.Services.AddScoped<IBlogService,BlogService>();
             builder.Services.AddScoped<IEmojiListService,EmojiListService>();
-
+            builder.Services.AddScoped<IEmailService, EmailService>();
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             {
