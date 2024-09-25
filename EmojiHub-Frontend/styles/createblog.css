@@ -1,0 +1,58 @@
+/* Center the form */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffe382; /* Adjust background color to match the image */
+}
+
+.create-blog-form {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 20px;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 0 auto;
+    color: rgb(102, 85, 85);
+    border: 2px solid #000; /* Strong border to match the image */
+    box-shadow: 10px 10px 0px #ef8c57, 20px 20px 0px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid black; /* Bold underline for inputs */
+    outline: none;
+    background: transparent;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ef8c57; /* Button color similar to the image */
+    color: black;
+    border: 2px solid black;
+    box-shadow: 3px 3px #4b3f72; /* Add a shadow effect */
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px); /* Slight hover effect */
+    background-color: #f5a982; /* Lighter shade on hover */
+}

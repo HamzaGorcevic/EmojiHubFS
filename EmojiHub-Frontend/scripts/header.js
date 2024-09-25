@@ -3,6 +3,22 @@ let registerUser = document.querySelector(".registerUser");
 let menuH = document.querySelector(".menu");
 let loggedInUser = localStorage.getItem("loggedInUser");
 let linkToLostPage = document.querySelectorAll(".linkToLostPage");
+
+menuH.childNodes.forEach((element) => {
+    if (element.nodeType == Node.ELEMENT_NODE) {
+        element.addEventListener("click", () => {
+            menuH.childNodes.forEach((el) => {
+                if (el.nodeType === Node.ELEMENT_NODE) {
+                    el.classList.remove("active");
+                }
+            });
+            console.log("Class adedd");
+            element.classList.add("active");
+        });
+    }
+    console.log(element.innerText);
+});
+
 if (loggedInUser) {
     var logout = document.createElement("li");
     let logoutA = document.createElement("a");
@@ -14,9 +30,11 @@ if (loggedInUser) {
     logout.addEventListener("click", () => {
         window.location.href = "login.html";
         localStorage.removeItem("loggedInUser");
+        localStorage.removeItem("token");
+        localStorage.removeItem("user");
+        localStorage.removeItem("token");
     });
 } else {
-    console.log(linkToLostPage);
     for (i of linkToLostPage) {
         i.href = "lostpage.html";
     }

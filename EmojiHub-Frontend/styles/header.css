@@ -61,6 +61,10 @@
     transition: 0.2s all ease-in-out;
     color: white;
 }
+.menu .active {
+    font-weight: bold;
+    color: #ffad84;
+}
 
 .menu:hover a {
     opacity: 0.4;
@@ -113,46 +117,4 @@
         font-size: 28px;
         cursor: pointer;
     }
-}
-
-/* translate */
-.goog-te-gadget {
-    border-radius: 5px; /* Border radius */
-    padding: 5px; /* Padding */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
-    width: 200px;
-    overflow: hidden;
-    height: 53px;
-    margin-right: 10px;
-}
-
-/* Language Dropdown */
-.goog-te-combo {
-    height: 100%;
-    width: 100%;
-    font-size: 15px !important;
-    font-weight: bold;
-    background-color: rgb(48, 143, 226);
-    border-radius: 5px;
-    padding: 10px;
-    color: white;
-}
-
-/* Language Dropdown Options */
-.goog-te-combo-menu {
-    background-color: #391616; /* Background color */
-    border: 1px solid #ccc; /* Border color */
-    border-radius: 5px; /* Border radius */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Box shadow */
-}
-
-/* Language Dropdown Selected Option */
-.goog-te-combo-label {
-    color: #333; /* Text color */
-}
-
-/* Hover and Active State for Language Dropdown Options */
-.goog-te-menu-value:hover,
-.goog-te-menu-value-active {
-    background-color: #e0e0e0; /* Hover/Active background color */
 }

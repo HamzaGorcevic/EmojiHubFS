@@ -30,8 +30,7 @@ async function login() {
 
     let tokenArr = response.value.split(".");
     let tokenPayload = JSON.parse(atob(tokenArr[1]));
-    console.log(tokenPayload);
     localStorage.setItem("loggedInUser", tokenPayload.unique_name);
-
+    window.location.href = "index.html";
     // specail users !
 }

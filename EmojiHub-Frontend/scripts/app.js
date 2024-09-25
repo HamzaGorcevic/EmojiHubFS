@@ -1,14 +1,23 @@
-//
+import { BASE_URL } from "../urls.js";
+const token = localStorage.getItem("token");
 
-const currentUser = localStorage.getItem("loggedInUser");
 function addToList(selectedList) {
-    console.log("ASD", selectedList);
-    console.log(JSON.parse(localStorage.getItem(currentUser)));
-    let usersInfo = JSON.parse(localStorage.getItem(currentUser));
-    console.log("userinfo", usersInfo?.mylist);
-    usersInfo.mylist.push(selectedList);
-
-    localStorage.setItem(currentUser, JSON.stringify(usersInfo));
+    PostEmojiList(selectedList)
+        .then((res) => res.json())
+        .then((res) => {
+            console.log(res);
+        });
+}
+async function PostEmojiList(selectedList) {
+    const request = await fetch(`${BASE_URL}/EmojiList/createemojilist`, {
+        method: "POST",
+        headers: {
+            "Content-type": "application/json",
+            Authorization: `Bearer ${token}`,
+        },
+        body: JSON.stringify({ value: selectedList }),
+    });
+    return request;
 }
 //
 // editor
@@ -134,3 +143,5 @@ function categoryFetch(category) {
             displayEmojis(data);
         });
 }
+
+window.categoryFetch = categoryFetch;

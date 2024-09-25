@@ -6,13 +6,13 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="styles/footer.css" />
         <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/createblog.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link
             rel="stylesheet"
             href="path/to/font-awesome/css/font-awesome.min.css"
         />
-
         <script
             src="https://kit.fontawesome.com/a9a14f16de.js"
             crossorigin="anonymous"
@@ -47,13 +47,13 @@
                         >
                     </li>
                     <li class="hide">
-                        <a class="linkToLostPage" href="mylist.html">
-                            <i class="fa-solid fa-star"></i>My List</a
+                        <a class="linkToLostPage" href="mylist.html"
+                            ><i class="fa-solid fa-star"></i>My List</a
                         >
                     </li>
                     <li>
-                        <a href="blogs.html">
-                            <i class="fa-solid fa-star"></i>Blogs</a
+                        <a href="blogs.html"
+                            ><i class="fa-solid fa-star"></i>Blogs</a
                         >
                     </li>
                     <li class="hide">
@@ -61,9 +61,7 @@
                             ><i class="fa-solid fa-gamepad"></i>Game</a
                         >
                     </li>
-                    <li>
-                        <a class="loginUser" href="login.html">Login</a>
-                    </li>
+                    <li><a class="loginUser" href="login.html">Login</a></li>
                     <li>
                         <a class="registerUser" href="register.html"
                             >Register</a
@@ -77,6 +75,38 @@
                 </ul>
             </nav>
         </header>
+
+        <main>
+            <section class="create-blog-form">
+                <h1>Create Your Blog</h1>
+                <form id="blogForm">
+                    <div class="form-group">
+                        <textarea
+                            id="description"
+                            name="description"
+                            rows="5"
+                            placeholder="Enter your blog description..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="emojiList">Select Emojis:</label>
+                        <select name="emoji" id="select-emoji"></select>
+                        <input
+                            type="hidden"
+                            id="selectedEmojis"
+                            name="selectedEmojis"
+                        />
+                    </div>
+
+                    <button type="submit">Submit Blog</button>
+                </form>
+            </section>
+        </main>
+
+        <script src="scripts/protected.js"></script>
+        <script type="module" src="scripts/createblog.js"></script>
         <script src="scripts/header.js"></script>
     </body>
 </html>
