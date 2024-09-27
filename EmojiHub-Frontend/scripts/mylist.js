@@ -6,7 +6,6 @@ userEl.innerHTML = `${user}'s emoji list`;
 let token = localStorage.getItem("token");
 
 async function GetLists() {
-    console.log("DASDA");
     const request = await fetch(
         `${BASE_URL}/EmojiList/alluseremojilists`,
 
@@ -19,7 +18,6 @@ async function GetLists() {
     );
 
     let response = await request.json();
-    console.log(response.value);
     let emojiList = response.value;
     const emojiListContainer = document.getElementById("emoji-list");
 
