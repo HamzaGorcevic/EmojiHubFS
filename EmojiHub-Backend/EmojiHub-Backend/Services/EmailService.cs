@@ -2,6 +2,7 @@
 using MailKit.Net.Smtp;
 using MailKit.Security;
 using MimeKit;
+using System.Diagnostics;
 namespace EmojiHub_Backend.Services
 {
     public class EmailService:IEmailService
@@ -17,20 +18,15 @@ namespace EmojiHub_Backend.Services
         {
             var response = new ServiceResponse<bool>(); 
             var message = new MimeMessage();
-            message.From.Add(new MailboxAddress("FromName", "hamzagorcevic100@gmail.com"));
-            message.To.Add(new MailboxAddress("", email.EmailFrom));
+            message.From.Add(new MailboxAddress("Mail from:", email.EmailFrom));
+            message.To.Add(new MailboxAddress("", "hamzagorcevic100@gmail.com"));
+            message.ReplyTo.Add(new MailboxAddress(email.Name ?? "User", email.EmailFrom));
             message.Subject = "Emoji Hub";
             message.Body = new TextPart("plain") { Text = email.EmailBody };
-            Console.WriteLine($"Server: {_configuration["EmailSettings:ServerService"]}");
-
             try
             {
                 using (var client = new SmtpClient())
                 {
-                    System.Diagnostics.Debug.WriteLine($"Server: {_configuration["EmailSettings:ServerService"]}");
-                    System.Diagnostics.Debug.WriteLine($"Port: {_configuration.GetValue<int>("EmailSettings:Port")}");
-                    System.Diagnostics.Debug.WriteLine($"Email: {_configuration["EmailSettings:Email"]}");
-
                     client.Connect(_configuration["EmailSettings:ServerService"], _configuration.GetValue<int>("EmailSettings:Port"), SecureSocketOptions.StartTls);
                     client.Authenticate(_configuration["EmailSettings:Email"], _configuration["EmailSettings:Password"]);
 
@@ -46,6 +42,7 @@ namespace EmojiHub_Backend.Services
             {
                 response.Value = false;
                 response.Message = ex.Message;
+                response.Success = false;
                 return response;
             }
         }
