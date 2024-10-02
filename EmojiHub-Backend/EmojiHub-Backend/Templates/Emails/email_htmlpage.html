@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Emoji Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.5;
+            font-size: 16px;
+        }
+
+        .logo {
+            display: block;
+            max-width: 150px;
+            margin: 0 auto 20px auto;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+
+            .footer a {
+                color: #f4b400;
+                text-decoration: none;
+            }
+
+                .footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Emoji Hub!</h1>
+        <img class="logo" src="{{logoUrl}}" alt="Logo" />
+        <p>Mail is sent from <strong>{{name}}</strong>,</p>
+        <p>{{body}}</p>
+        <p>Best regards,<br />The Emoji Hub Team</p>
+
+        <div class="footer">
+            <p>&copy; 2024 Emoji Hub. All rights reserved.</p>
+            <p><a href="https://yourwebsite.com/support">Need help? Contact our support team</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

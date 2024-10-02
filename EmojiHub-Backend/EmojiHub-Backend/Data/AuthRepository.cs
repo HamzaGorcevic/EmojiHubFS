@@ -78,6 +78,7 @@ namespace EmojiHub_Backend.Data
             claims.AddClaim(new Claim(ClaimTypes.NameIdentifier,user.Id.ToString()));
 
             var handler = new JwtSecurityTokenHandler();
+
             var key = Encoding.ASCII.GetBytes(_configuration.GetSection("Token").Value);
             var credentials = new SigningCredentials(
                 new SymmetricSecurityKey(key),
