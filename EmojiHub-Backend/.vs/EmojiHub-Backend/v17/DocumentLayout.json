@@ -3,112 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\emojihub-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\emojihub-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\controllers\\blogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\services\\blogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\services\\emojilistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\services\\emojilistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\dtos\\blog\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\dtos\\blog\\blogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\dtos\\blog\\publicblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\dtos\\blog\\publicblogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\services\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\models\\emojilist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\models\\emojilist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\templates\\emails\\email_htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\templates\\emails\\email_htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\models\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\dtos\\user\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\dtos\\user\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\dtos\\user\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\dtos\\user\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\emojihub-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\emojihub-backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\controllers\\emojilistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\controllers\\emojilistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\services\\iemojilistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\services\\iemojilistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\data\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\data\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\emojihub-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\emojihub-backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\emojihub-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\emojihub-backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\templates\\emails\\confirmation_email_htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\templates\\emails\\confirmation_email_htmlpage.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|c:\\users\\gorce\\emojihub\\emojihub-backend\\emojihub-backend\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{228EC1AA-C411-4BEF-AE4A-C193F036B86D}|EmojiHub-Backend\\EmojiHub-Backend.csproj|solutionrelative:emojihub-backend\\data\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -118,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\.gitignore",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\.gitignore",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\.gitignore",
+              "RelativeToolTip": "EmojiHub-Backend\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-02T20:49:21.16Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -150,300 +95,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegisterUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\RegisterUserDto.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Dtos\\User\\RegisterUserDto.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\RegisterUserDto.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Dtos\\User\\RegisterUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T11:00:32.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogsController.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\BlogsController.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Controllers\\BlogsController.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\BlogsController.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Controllers\\BlogsController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:35:56.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AutoMapperProfile.cs",
               "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "EmojiHub-Backend\\AutoMapperProfile.cs",
               "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\AutoMapperProfile.cs",
               "RelativeToolTip": "EmojiHub-Backend\\AutoMapperProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T11:23:15.176Z"
+              "WhenOpened": "2024-10-02T19:41:47.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\appsettings.json",
+              "RelativeToolTip": "EmojiHub-Backend\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-02T19:36:14.97Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Models\\Blog.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\Blog.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Models\\Blog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:02:26.159Z"
+              "Title": "confirmation_email_htmlpage.html",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Templates\\Emails\\confirmation_email_htmlpage.html",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\Templates\\Emails\\confirmation_email_htmlpage.html",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Templates\\Emails\\confirmation_email_htmlpage.html",
+              "RelativeToolTip": "EmojiHub-Backend\\Templates\\Emails\\confirmation_email_htmlpage.html",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAgwGgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T18:31:51.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmojiListService.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\EmojiListService.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Services\\EmojiListService.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\EmojiListService.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Services\\EmojiListService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Program.cs",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Program.cs",
+              "RelativeToolTip": "EmojiHub-Backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:37:07.063Z",
+              "WhenOpened": "2024-10-02T18:12:04.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "email_htmlpage.html",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Templates\\Emails\\email_htmlpage.html",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\Templates\\Emails\\email_htmlpage.html",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Templates\\Emails\\email_htmlpage.html",
+              "RelativeToolTip": "EmojiHub-Backend\\Templates\\Emails\\email_htmlpage.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-02T17:53:31.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\EmailService.cs",
+              "RelativeToolTip": "EmojiHub-Backend\\Services\\EmailService.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:44:25.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "EmojiHub-Backend\\Data\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\AuthRepository.cs",
+              "RelativeToolTip": "EmojiHub-Backend\\Data\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T17:38:32.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAA8wBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T19:18:32.225Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "EmojiHub-Backend.csproj",
               "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\EmojiHub-Backend.csproj",
               "RelativeDocumentMoniker": "EmojiHub-Backend\\EmojiHub-Backend.csproj",
               "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\EmojiHub-Backend.csproj",
               "RelativeToolTip": "EmojiHub-Backend\\EmojiHub-Backend.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-15T14:56:39.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BlogDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\Blog\\BlogDto.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Dtos\\Blog\\BlogDto.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\Blog\\BlogDto.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Dtos\\Blog\\BlogDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:39:41.834Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BlogService.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\BlogService.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Services\\BlogService.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\BlogService.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Services\\BlogService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:37:54.667Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\.gitignore",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\.gitignore",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\.gitignore",
-              "RelativeToolTip": "EmojiHub-Backend\\.gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-23T16:11:41.151Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PublicBlogDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\Blog\\PublicBlogDto.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Dtos\\Blog\\PublicBlogDto.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\Blog\\PublicBlogDto.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Dtos\\Blog\\PublicBlogDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T13:34:36.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\User.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:41:08.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBlogService.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\IBlogService.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Services\\IBlogService.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\IBlogService.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Services\\IBlogService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:38:15.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmojiList.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\EmojiList.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Models\\EmojiList.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\EmojiList.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Models\\EmojiList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:53:06.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Program.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Program.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAwGMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:22:39.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\ServiceResponse.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Models\\ServiceResponse.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Models\\ServiceResponse.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Models\\ServiceResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:48:38.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LoginUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\LoginUserDto.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Dtos\\User\\LoginUserDto.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\LoginUserDto.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Dtos\\User\\LoginUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T11:00:18.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\AuthRepository.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Data\\AuthRepository.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\AuthRepository.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Data\\AuthRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:50:01.502Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\DataContext.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:15:45.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\appsettings.json",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\appsettings.json",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\appsettings.json",
-              "RelativeToolTip": "EmojiHub-Backend\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-15T15:05:45.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EmojiListController.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\EmojiListController.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Controllers\\EmojiListController.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\EmojiListController.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Controllers\\EmojiListController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAIwAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:49:04.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IEmojiListService.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\IEmojiListService.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Services\\IEmojiListService.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Services\\IEmojiListService.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Services\\IEmojiListService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:37:44.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\UserDto.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Dtos\\User\\UserDto.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Dtos\\User\\UserDto.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Dtos\\User\\UserDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:43:23.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:52:22.057Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 4,
               "Title": "EmojiHub-Backend.http",
               "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\EmojiHub-Backend.http",
               "RelativeDocumentMoniker": "EmojiHub-Backend\\EmojiHub-Backend.http",
@@ -451,30 +207,7 @@
               "RelativeToolTip": "EmojiHub-Backend\\EmojiHub-Backend.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-15T19:35:28.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IAuthRepository.cs",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\IAuthRepository.cs",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\Data\\IAuthRepository.cs",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\Data\\IAuthRepository.cs",
-              "RelativeToolTip": "EmojiHub-Backend\\Data\\IAuthRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T15:42:52.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "EmojiHub-Backend",
-              "DocumentMoniker": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\EmojiHub-Backend.csproj",
-              "RelativeDocumentMoniker": "EmojiHub-Backend\\EmojiHub-Backend.csproj",
-              "ToolTip": "C:\\Users\\gorce\\EmojiHub\\EmojiHub-Backend\\EmojiHub-Backend\\EmojiHub-Backend.csproj",
-              "RelativeToolTip": "EmojiHub-Backend\\EmojiHub-Backend.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-15T15:14:24.728Z",
+              "WhenOpened": "2024-09-15T19:35:28.35Z",
               "EditorCaption": ""
             }
           ]
