@@ -1,1 +1,10 @@
 \node_modules
+.vs/
+*.suo
+*.user
+*.userprefs
+.env
+bin/
+obj/
+
+*.log
