@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using dotenv.net;
 namespace EmojiHub_Backend
 {
     public class Program
@@ -12,6 +13,13 @@ namespace EmojiHub_Backend
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            DotEnv.Load();
+            builder.Configuration["EmailSettings:Email"] = Environment.GetEnvironmentVariable("EMAIL");
+            builder.Configuration["EmailSettings:Password"] = Environment.GetEnvironmentVariable("PASSWORD");
+            builder.Configuration["ConnectionStrings:DefaultConnection"] = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+            builder.Configuration["Token"] = Environment.GetEnvironmentVariable("TOKEN");
+
 
 
             builder.Services.AddControllers();
