@@ -14,7 +14,6 @@ namespace EmojiHub_Backend
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            DotEnv.Load();
             builder.Configuration["EmailSettings:Email"] = Environment.GetEnvironmentVariable("EMAIL");
             builder.Configuration["EmailSettings:Password"] = Environment.GetEnvironmentVariable("PASSWORD");
             builder.Configuration["ConnectionStrings:DefaultConnection"] = Environment.GetEnvironmentVariable("CONNECTION_STRING");
@@ -91,6 +90,7 @@ namespace EmojiHub_Backend
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
+                DotEnv.Load();
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
