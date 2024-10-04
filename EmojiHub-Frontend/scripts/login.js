@@ -1,3 +1,4 @@
+import { BASE_URL } from "../urls.js";
 async function login() {
     var loginUsername = document.getElementById("loginUsername").value;
     var loginPassword = document.getElementById("loginPassword").value;
@@ -11,9 +12,8 @@ async function login() {
             "Username is required";
         return;
     }
-    apiUrl = "http://127.0.0.1:5001/Auth/login";
 
-    const request = await fetch(apiUrl, {
+    const request = await fetch(`${BASE_URL}/auth/login`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -34,3 +34,5 @@ async function login() {
     window.location.href = "index.html";
     // specail users !
 }
+
+window.login = login;

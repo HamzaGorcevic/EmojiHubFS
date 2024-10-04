@@ -1,3 +1,5 @@
+import { BASE_URL } from "../urls.js";
+
 async function register() {
     var regUsername = document.getElementById("regUsername").value;
     var regPassword = document.getElementById("regPassword").value;
@@ -43,7 +45,7 @@ async function register() {
     }
 
     // const apiUrl = "https://emojihubusers.wiremockapi.cloud/users";
-    const apiUrl = "http://localhost:5001/Auth/register";
+    const apiUrl = `${BASE_URL}/Auth/register`;
     await postData(apiUrl, {
         email: regUsername,
         name: regUsername,
@@ -75,3 +77,5 @@ async function postData(url = "", data = {}) {
         throw error;
     }
 }
+
+window.register = register;
